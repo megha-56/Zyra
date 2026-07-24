@@ -8,13 +8,20 @@ dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 const MONGODB_URI = process.env.MONGODB_URI;
 
 async function updateProducts() {
-  try {
-    await mongoose.connect(MONGODB_URI);
+//   try {
+//     await mongoose.connect(MONGODB_URI);
 
-    if (!MONGODB_URI) {
-  throw new Error('MONGODB_URI is not defined in .env.local');
-}
-    console.log('Connected to MongoDB');
+//     if (!MONGODB_URI) {
+//   throw new Error('MONGODB_URI is not defined in .env.local');
+// }
+//     console.log('Connected to MongoDB');
+try {
+  if (!MONGODB_URI) {
+    throw new Error('MONGODB_URI is not defined in .env.local');
+  }
+
+  await mongoose.connect(MONGODB_URI);
+  console.log('Connected to MongoDB');
 
     // Update all existing Jerseys to be Unisex
     const jerseyUpdate = await Product.updateMany(
