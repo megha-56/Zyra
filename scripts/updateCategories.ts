@@ -1,11 +1,19 @@
 import mongoose from 'mongoose';
 import Product from '../src/models/Product';
 
-const MONGODB_URI = process.env.MONGODB_URI
+import dotenv from 'dotenv';
+import path from 'path';
+dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
+
+const MONGODB_URI = process.env.MONGODB_URI;
 
 async function updateProducts() {
   try {
     await mongoose.connect(MONGODB_URI);
+
+    if (!MONGODB_URI) {
+  throw new Error('MONGODB_URI is not defined in .env.local');
+}
     console.log('Connected to MongoDB');
 
     // Update all existing Jerseys to be Unisex
