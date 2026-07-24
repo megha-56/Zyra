@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import Product from '../src/models/Product';
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://sudhanshutiwari:zyra123@cluster0.5adxtoq.mongodb.net';
+const MONGODB_URI = process.env.MONGODB_URI
 
 async function updateProducts() {
   try {

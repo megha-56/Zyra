@@ -6,4 +6,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-export default cloudinary;
+export default cloudinary;]
+
+
+kWIT6BESMDfLdrRAx1hgYM27HG8
