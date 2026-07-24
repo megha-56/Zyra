@@ -3,6 +3,8 @@ import ProductCard from '@/components/ProductCard';
 import Button from '@/components/Button';
 import { ArrowRight } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 async function getFeaturedProducts() {
   try {
     const res = await fetch(`${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/api/products?featured=true`, {

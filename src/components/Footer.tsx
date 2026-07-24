@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Instagram, Twitter, Mail, MapPin } from 'lucide-react';
+import { Link2 as ExternalLink, Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -85,7 +85,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="p-2 bg-white rounded-full shadow hover:shadow-md transition-shadow"
               >
-                <Facebook className="h-5 w-5" />
+                <ExternalLink className="h-5 w-5" />
               </a>
               <a
                 href="https://instagram.com"
@@ -93,7 +93,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="p-2 bg-white rounded-full shadow hover:shadow-md transition-shadow"
               >
-                <Instagram className="h-5 w-5" />
+                <ExternalLink className="h-5 w-5" />
               </a>
               <a
                 href="https://twitter.com"
@@ -101,7 +101,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="p-2 bg-white rounded-full shadow hover:shadow-md transition-shadow"
               >
-                <Twitter className="h-5 w-5" />
+                <ExternalLink className="h-5 w-5" />
               </a>
               <a
                 href="mailto:info@zyra.com"
