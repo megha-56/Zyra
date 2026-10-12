@@ -74,6 +74,20 @@ const sampleProducts = [
     stock: 35,
     featured: false,
   },
+  {
+    name: 'Botanical Floral Resort Shirt',
+    description: 'Relaxed fit short-sleeve button-up shirt featuring a vibrant emerald and periwinkle watercolor floral print',
+    price: 68.99,
+    category: 'Shirts',
+    gender: 'Men',
+    images: [
+      '/products/mens-floral-shirt.png',
+    ],
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Emerald Floral', 'Forest Green/White'],
+    stock: 45,
+    featured: true,
+  },
   // Men's T-Shirts
   {
     name: 'Essential Cotton T-Shirt',
