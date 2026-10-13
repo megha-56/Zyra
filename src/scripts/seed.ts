@@ -604,6 +604,20 @@ const sampleProducts = [
     featured: true,
   },
   {
+    name: 'Plain White Tee',
+    description: 'White graphic t-shirt for kids',
+    price: 19.99,
+    category: 'T-Shirts',
+    gender: 'Children',
+    images: [
+      'https://www.shutterstock.com/image-photo/adorable-little-blonde-cute-kid-260nw-2490263477.jpg',
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Blue', 'Green', 'Orange'],
+    stock: 70,
+    featured: true,
+  },
+  {
     name: 'Space Explorer Cotton Tee',
     description: 'Super-soft 100% cotton t-shirt with glow-inspired astronaut and planet graphics',
     price: 21.99,
