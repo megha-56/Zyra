@@ -416,6 +416,20 @@ const sampleProducts = [
     stock: 30,
     featured: false,
   },
+  {
+    name: 'Ruched Square-Neck Knit Top',
+    description: 'Figure-flattering ribbed knit top with a chic square neckline and subtle front ruching',
+    price: 42.99,
+    category: 'Wears',
+    gender: 'Women',
+    images: [
+      'https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?w=500',
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Ivory', 'Sage Green', 'Black', 'Terracotta'],
+    stock: 50,
+    featured: true,
+  },
   // Women's Jeans
   {
     name: 'High-Rise Vintage Mom Jeans',
