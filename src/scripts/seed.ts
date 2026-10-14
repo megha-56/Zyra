@@ -689,6 +689,20 @@ const sampleProducts = [
     stock: 60,
     featured: false,
   },
+  {
+    name: 'Black & White Junior Striker Soccer Jersey',
+    description: 'Lightweight sweat-wicking team jersey for youth soccer practice and matches',
+    price: 36.99,
+    category: 'Jerseys',
+    gender: 'Children',
+    images: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtSFKeZA4ExyG5ZIuotEO1xl1n-7y3_Yv8UW4_uEGtLA&s=10',
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Electric Blue', 'Neon Green', 'White/Red'],
+    stock: 60,
+    featured: false,
+  },
 ];
 
 async function seedDatabase() {
