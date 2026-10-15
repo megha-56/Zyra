@@ -473,6 +473,20 @@ const sampleProducts = [
     stock: 70,
     featured: false,
   },
+   {
+    name: 'Charcoal Wideleg women Jeans',
+    description: 'High-recovery stretch denim that hugs curves with a sleek ankle-grazing fit',
+    price: 76.99,
+    category: 'Jeans',
+    gender: 'Women',
+    images: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQ1qrSrb4iD_ts3JMMqPnOtWBcKmEBHQWx-UMxFUXYQ&s=10',
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Jet Black', 'Classic Blue', 'White'],
+    stock: 70,
+    featured: false,
+  },
   // Women's Jerseys
   {
     name: 'Active Wear Sports Jersey',
