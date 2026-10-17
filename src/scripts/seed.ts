@@ -589,6 +589,20 @@ const sampleProducts = [
     featured: false,
   },
   {
+    name: 'Buy Navy Blue Lining Shirt for Boys',
+    description: 'Comfortable polo shirt for kids',
+    price: 24.99,
+    category: 'Shirts',
+    gender: 'Children',
+    images: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkiYYqdu15o3BzSwI3fd0dqvFKa6dxRO90SxnSMllx3Hj8WUTtuz2r2I&s=10',
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Navy', 'Red', 'Yellow'],
+    stock: 60,
+    featured: false,
+  },
+  {
     name: 'Kids Checked Flannel Shirt',
     description: 'Cozy brushed cotton button-up shirt for school days and family outings',
     price: 29.99,
