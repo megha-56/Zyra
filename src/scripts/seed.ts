@@ -605,7 +605,7 @@ const sampleProducts = [
   {
     name: 'White Blue Lining Shirt for Boys',
     description: 'Comfortable polo shirt for kids',
-    price: 24.99,
+    price: 20.99,
     category: 'Shirts',
     gender: 'Children',
     images: [
