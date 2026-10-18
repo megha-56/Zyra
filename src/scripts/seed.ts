@@ -603,6 +603,20 @@ const sampleProducts = [
     featured: false,
   },
   {
+    name: 'White Blue Lining Shirt for Boys',
+    description: 'Comfortable polo shirt for kids',
+    price: 24.99,
+    category: 'Shirts',
+    gender: 'Children',
+    images: [
+      'https://jacadi.in/cdn/shop/files/product-2045301-792-JH.avif?v=1775727993&width=1400',
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Navy', 'Red', 'Yellow'],
+    stock: 60,
+    featured: false,
+  },
+  {
     name: 'Kids Checked Flannel Shirt',
     description: 'Cozy brushed cotton button-up shirt for school days and family outings',
     price: 29.99,
