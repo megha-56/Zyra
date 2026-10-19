@@ -518,6 +518,20 @@ const sampleProducts = [
   },
   // Unisex Jerseys
   {
+    name: 'Unisex multicolor jersey',
+    description: 'Official stadium-style unisex football jersey with ventilated mesh panels',
+    price: 52.99,
+    category: 'Jerseys',
+    gender: 'Unisex',
+    images: [
+      'https://tiimg.tistatic.com/fp/2/009/019/unisex-athletic-jersey-135.jpg',
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Royal Blue/White', 'Crimson/Gold', 'Black/Neon'],
+    stock: 90,
+    featured: true,
+  },
+  {
     name: 'Pro Club Football Team Jersey',
     description: 'Official stadium-style unisex football jersey with ventilated mesh panels',
     price: 59.99,
