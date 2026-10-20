@@ -531,6 +531,20 @@ const sampleProducts = [
     stock: 90,
     featured: true,
   },
+   {
+    name: 'ComicSense Haikyuu Anime Unisex jersey',
+    description: 'Official stadium-style unisex football jersey with ventilated mesh panels',
+    price: 62.99,
+    category: 'Jerseys',
+    gender: 'Unisex',
+    images: [
+      'https://m.media-amazon.com/images/I/91-FlshvewL._AC_UY1100_.jpg',
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Royal Blue/White', 'Crimson/Gold', 'Black/Neon'],
+    stock: 90,
+    featured: true,
+  },
   {
     name: 'Pro Club Football Team Jersey',
     description: 'Official stadium-style unisex football jersey with ventilated mesh panels',
