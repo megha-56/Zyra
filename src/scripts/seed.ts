@@ -516,6 +516,20 @@ const sampleProducts = [
     stock: 45,
     featured: true,
   },
+  {
+    name: 'BlackStep womens Sports Jersey',
+    description: 'Moisture-wicking sports jersey',
+    price: 48.99,
+    category: 'Jerseys',
+    gender: 'Women',
+    images: [
+      'https://m.media-amazon.com/images/I/812GIZF2DGL._AC_UY1100_.jpg',
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Purple', 'Teal', 'Coral'],
+    stock: 45,
+    featured: true,
+  },
   // Unisex Jerseys
   {
     name: 'Unisex multicolor jersey',
