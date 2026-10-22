@@ -530,6 +530,20 @@ const sampleProducts = [
     stock: 45,
     featured: true,
   },
+  {
+    name: 'Bioracer Racing womens jersey',
+    description: 'Moisture-wicking sports jersey',
+    price: 45.99,
+    category: 'Jerseys',
+    gender: 'Women',
+    images: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDb3bYzzHfPSjrN79lSZ5OGQEVnmMGa9h-VhjXaD-pIQ&s',
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Purple', 'Teal', 'Coral'],
+    stock: 45,
+    featured: true,
+  },
   // Unisex Jerseys
   {
     name: 'Unisex multicolor jersey',
