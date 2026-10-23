@@ -544,6 +544,20 @@ const sampleProducts = [
     stock: 45,
     featured: true,
   },
+   {
+    name: 'pink and white jersey for women',
+    description: 'Moisture-wicking sports jersey',
+    price: 42.99,
+    category: 'Jerseys',
+    gender: 'Women',
+    images: [
+      'https://img201.savana.com/goods-pic/eddcdb78fe83468c8c8d697fb4d3365a_w540_h720_q85.webp',
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Purple', 'Teal', 'Coral'],
+    stock: 45,
+    featured: true,
+  },
   // Unisex Jerseys
   {
     name: 'Unisex multicolor jersey',
