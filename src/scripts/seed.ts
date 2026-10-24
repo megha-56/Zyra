@@ -558,6 +558,20 @@ const sampleProducts = [
     stock: 45,
     featured: true,
   },
+  {
+    name: 'USA women cricket jersey',
+    description: 'Moisture-wicking sports jersey',
+    price: 40.99,
+    category: 'Jerseys',
+    gender: 'Women',
+    images: [
+      'https://t10sports.com/cdn/shop/files/women-jersey-front_91fd594b-4e45-440f-9edf-2fc5877cda7a.jpg?v=1734588973&width=1946',
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Purple', 'Teal', 'Coral'],
+    stock: 45,
+    featured: true,
+  },
   // Unisex Jerseys
   {
     name: 'Unisex multicolor jersey',
